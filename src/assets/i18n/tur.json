@@ -1,0 +1,31 @@
+{
+    "baseArea":{
+     "userName": "Kullanıcı Adı",
+     "userSurname":"Kullanıcı Soyadı",
+     "userEmail":"Kullanıcı E-Posta",
+     "action":"Aksiyon",
+      "filter":"Filtrele"
+    }, 
+ 
+    "buttonValue":{
+     "addUser": "Kullanıcı Ekle"
+    },
+ 
+    "formValues":{
+      "title": "Kullanıcı Ekleme Formu",
+      "name" : "Adı",
+      "surname":"Soyadı",
+      "email" : "E-Posta",
+      "closeButton":"Kapat",
+      "addButton":"Ekle"   
+    },
+ 
+    "updateFormValues":{
+     "name":"Adı",
+     "surname":"Soyadı",
+     "email":"E-Posta",
+     "closeButton":"Kapat",
+     "updateButton":"Güncelle"
+    }
+ }
+ 

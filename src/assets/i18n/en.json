@@ -1,0 +1,32 @@
+{
+   "baseArea":{
+    "userName": "User Name",
+    "userSurname":"User Surname",
+    "userEmail":"User Email",
+    "action":"Action",
+    "filter":"Filter" 
+   }, 
+
+   "buttonValue":{
+    "addUser": "Add User"
+   },
+
+   "formValues":{
+     "title": "Add Personal Form",
+     "name" : "Name",
+     "surname":"Surname",
+     "email" : "E-Mail",
+     "closeButton":"Close",
+     "addButton":"Add"   
+   },
+
+   "updateFormValues":{
+    "name":"Name",
+    "surname":"Surname",
+    "email":"E-Mail",
+    "closeButton":"Close",
+    "updateButton":"Update"
+   }
+
+
+}

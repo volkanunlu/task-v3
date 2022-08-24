@@ -1,0 +1,28 @@
+<h1 mat-dialog-title >{{formValue}}</h1>
+<div mat-dialog-content>
+
+<form [formGroup]="userForm">
+    <!-- Yapımı formgroup içerisinde topladım, ts tarafında tanımladığım şekilde formControlName tarafında eşleştirdim -->
+    <mat-form-field appearance="outline">
+        <mat-label>{{'formValues.name'| transloco}}</mat-label>
+        <input matInput placeholder="Name" formControlName="userName">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>{{'formValues.surname'| transloco}}</mat-label>
+        <input matInput placeholder="Surname" formControlName="userSurname">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>{{'formValues.email'| transloco}}</mat-label>
+        <input matInput placeholder="deneme@myliba.com" formControlName="userEmail">
+      </mat-form-field>
+</form>
+      
+</div>
+
+<div mat-dialog-action [align]="'end'">
+<button mat-raised-button color="primary" mat-dialog-close>
+  {{'formValues.closeButton'| transloco}}</button>
+<button mat-raised-button color="warn" style="margin-left:10px" (click)="addUser()">
+  {{btnName}}</button>
+<!-- add user metodumu button click tarafına bağladım -->
+</div>

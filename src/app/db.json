@@ -1,0 +1,52 @@
+{
+  "userList": [
+    {
+      "userName": "Volkan",
+      "userSurname": "Ünlü ",
+      "userEmail": "Volkanunlu2203@gmail.com",
+      "id": 1
+    },
+    {
+      "userName": "Hakkı Can",
+      "userSurname": "Babacan",
+      "userEmail": "BabacanHakki@gmail.com",
+      "id": 3
+    },
+    {
+      "userName": "Cristiano",
+      "userSurname": "Ronaldo",
+      "userEmail": "cr7@deneme.com",
+      "id": 4
+    },
+    {
+      "userName": "Kerem",
+      "userSurname": "Alıcı",
+      "userEmail": "alicikerem@deneme.com",
+      "id": 5
+    },
+    {
+      "userName": "Hakan ",
+      "userSurname": "Çalhanoğlu",
+      "userEmail": "hknclhnoglu@deneme.com",
+      "id": 6
+    },
+    {
+      "userName": "Alex ",
+      "userSurname": "De Souza",
+      "userEmail": "alex10@fb.com.tr",
+      "id": 7
+    },
+    {
+      "userName": "Esra ",
+      "userSurname": "Sarıcak",
+      "userEmail": "saricakesra@sample.com",
+      "id": 8
+    },
+    {
+      "userName": "Ebru",
+      "userSurname": "Yılmaz",
+      "userEmail": "yilmazebru@deneme.com",
+      "id": 9
+    }
+  ]
+}
